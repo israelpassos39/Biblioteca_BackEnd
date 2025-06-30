@@ -1,5 +1,6 @@
+// backend/routes/livros.js
 const router = require('express').Router();
-const Livro = require('c:/Users/IsraelPassos/Desktop/Nova pasta/models/Livro');
+const Livro = require('../models/Livro');
 
 router.get('/', async (req, res) => {
   const livros = await Livro.find();

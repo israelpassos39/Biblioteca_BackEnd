@@ -1,3 +1,4 @@
+// backend/models/Livro.js
 const mongoose = require('mongoose');
 const LivroSchema = new mongoose.Schema({
   titulo: String,
